@@ -1,5 +1,7 @@
 {{ `<?xml version="1.0" encoding="UTF-8"?>` | safeHTML }}
 <!-- http://localhost:1313/feed/mp3/index.xml -->  
+<!-- https://almartin82.github.io/safe-to-eat/feed/mp3/index.xml -->  
+
 <rss version="2.0"
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
