@@ -1,0 +1,29 @@
+{{ `<?xml version="1.0" encoding="UTF-8"?>` | safeHTML }}
+<!-- http://localhost:1313/feed/mp3/index.xml -->  
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <itunes:owner>
+        <itunes:email>{{ .Site.Params.Author.Email }}</itunes:email>
+    </itunes:owner>
+    <itunes:author>{{ .Site.Params.Author.Name }}</itunes:author>
+    <description> {{ .Site.Params.Podcast.Description}}</description>
+    <itunes:image href="{{ .Site.BaseURL }}images/static/logo.png"/>    
+    <language>{{ .Site.LanguageCode }}</language>
+    <link>{{ .Site.BaseURL }}</link>
+
+    {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+      <item>
+        <title>{{ .Params.show_source }} | {{ .Params.original_title }}</title>
+        <description>{{ .Params.original_description }}</description>
+        <pubDate>{{ .Params.date }}</pubDate>
+        <enclosure url="{{ .Params.podcast_url }}" type="{{ .Params.audio_type }}"/>
+        <itunes:duration>{{ .Params.duration }}</itunes:duration>
+        <itunes:episode>{{ .Params.episode_number }}</itunes:episode>
+      </item>
+
+    {{- end }}
+
+  </channel>
+</rss>

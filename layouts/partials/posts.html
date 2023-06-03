@@ -1,0 +1,22 @@
+<ul id="posts">
+
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ range $paginator.Pages }}
+        
+    {{- partial "postpreview.html" . -}}
+
+    {{- end }}
+</ul>
+
+<!-- Add navigation links if there are more pages -->
+{{ if or .Paginator.HasPrev .Paginator.HasNext }}
+  other episodes
+{{ end }}
+
+{{ if .Paginator.HasPrev }}
+  <a href="{{ .Paginator.Prev.URL }}">Previous</a>
+{{ end }}
+
+{{ if .Paginator.HasNext }}
+|  <a href="{{ .Paginator.Next.URL }}">Next</a>
+{{ end }}
