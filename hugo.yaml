@@ -27,5 +27,5 @@ params:
 
   podcast:
     description: "a podcast appreciation experiment in the style of google reader."
-    explicit: no
+    explicit: "no"
     category: Education
