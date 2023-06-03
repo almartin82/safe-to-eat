@@ -26,4 +26,6 @@ params:
     email: almartin@gmail.com
 
   podcast:
-    description: 'a podcast appreciation experiment in the style of google reader.'
+    description: "a podcast appreciation experiment in the style of google reader."
+    explicit: no
+    category: Society &amp; Culture
