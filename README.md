@@ -1,3 +1,3 @@
 # safe-to-eat
 
-a podcast appreciation experiment in the style of google reader.
+a podcast appreciation experiment! think google reader shares (RIP), but for podcasts.
