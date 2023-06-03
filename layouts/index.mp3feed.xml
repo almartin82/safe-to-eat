@@ -26,7 +26,7 @@
         <itunes:duration>{{ .Params.duration }}</itunes:duration>
         <itunes:episode>{{ .Params.episode_number }}</itunes:episode>
         <link>{{ .Permalink }}</link>
-        <guid>{{.Site.BaseURL}}{{ .Params.episode_number }}</guid>
+        <guid isPermaLink="false">{{.Site.BaseURL}}{{ .Params.episode_number }}</guid>
 
       </item>
 
