@@ -22,7 +22,7 @@
         <title>{{ .Params.show_source }} | {{ .Params.original_title }}</title>
         <description>{{ .Params.original_description }}</description>
         <pubDate>{{ .Params.date }}</pubDate>
-        <enclosure url="{{ .Params.podcast_url }}" type="{{ .Params.audio_type }}"/>
+        <enclosure url="{{ .Params.podcast_url }}" type="{{ .Params.audio_type }}" length="0"/>
         <itunes:duration>{{ .Params.duration }}</itunes:duration>
         <itunes:episode>{{ .Params.episode_number }}</itunes:episode>
         <link>{{ .Permalink }}</link>
