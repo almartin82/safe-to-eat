@@ -19,7 +19,7 @@
     {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
 
       <item>
-        <title>{{ .Params.show_source }} {{ .Params.original_title }}</title>
+        <title>{{ .Params.show_source }} | {{ .Params.original_title }}</title>
         <description>Short description about the episode</description>
         <pubDate>{{ .Params.date.Format "Mon Jan 2 2006"}}</pubDate>
         <guid isPermaLink="false">{{.Site.BaseURL}}{{ .Params.episode_number }}</guid>
