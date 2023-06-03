@@ -15,22 +15,14 @@
     <language>{{ .Site.LanguageCode }}</language>
     <link>{{ .Site.BaseURL }}</link>
     <itunes:explicit>{{ .Site.Params.Podcast.Explicit }}</itunes:explicit>
-    <itunes:category text="{{ .Site.Params.Podcast.Category }}"></itunes:category>
 
-    {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
-      <item>
-        <title>{{ .Params.show_source }} | {{ .Params.original_title }}</title>
-        <description>{{ .Params.original_description }}</description>
-        <pubDate>{{ .Params.date }}</pubDate>
-        <enclosure url="{{ .Params.podcast_url }}" type="{{ .Params.audio_type }}" length="0"/>
-        <itunes:duration>{{ .Params.duration }}</itunes:duration>
-        <itunes:episode>{{ .Params.episode_number }}</itunes:episode>
-        <link>{{ .Permalink }}</link>
-        <guid isPermaLink="false">{{.Site.BaseURL}}{{ .Params.episode_number }}</guid>
-
-      </item>
-
-    {{- end }}
+    <item>
+      <title>Interesting episode title</title>
+      <description>Short description about the episode</description>
+      <pubDate>Tue, 02 Oct 2016 19:45:01</pubDate>
+      <guid isPermaLink="false">insert a unique id for the episode</guid>
+      <enclosure url="http://example.com/episode1.mp3" length="5860687" type="audio/mpeg" />
+    </item>
 
   </channel>
 </rss>
