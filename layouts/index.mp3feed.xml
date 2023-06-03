@@ -21,9 +21,9 @@
       <item>
         <title>{{ .Params.show_source }} {{ .Params.original_title }}</title>
         <description>Short description about the episode</description>
-        <pubDate>Tue, 02 Oct 2016 19:45:01</pubDate>
+        <pubDate>{{ .Params.date }}</pubDate>
         <guid isPermaLink="false">insert a unique id for the episode</guid>
-        <enclosure url="{{ .Params.podcast_url }}" type="{{ .Params.audio_type }}" length="0"/>
+        <enclosure url="{{ .Params.podcast_url }}" length="0" type="{{ .Params.audio_type }}"/>
       </item>
 
     {{- end }}
