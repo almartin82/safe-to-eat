@@ -16,13 +16,16 @@
     <link>{{ .Site.BaseURL }}</link>
     <itunes:explicit>{{ .Site.Params.Podcast.Explicit }}</itunes:explicit>
 
-    <item>
-      <title>Interesting episode title</title>
-      <description>Short description about the episode</description>
-      <pubDate>Tue, 02 Oct 2016 19:45:01</pubDate>
-      <guid isPermaLink="false">insert a unique id for the episode</guid>
-      <enclosure url="http://example.com/episode1.mp3" length="5860687" type="audio/mpeg" />
-    </item>
+    {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
 
+      <item>
+        <title>Interesting episode title</title>
+        <description>Short description about the episode</description>
+        <pubDate>Tue, 02 Oct 2016 19:45:01</pubDate>
+        <guid isPermaLink="false">insert a unique id for the episode</guid>
+        <enclosure url="http://example.com/episode1.mp3" length="5860687" type="audio/mpeg" />
+      </item>
+
+    {{- end }}
   </channel>
 </rss>
