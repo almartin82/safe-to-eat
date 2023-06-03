@@ -23,6 +23,7 @@
         <enclosure url="{{ .Params.podcast_url }}" type="{{ .Params.audio_type }}"/>
         <itunes:duration>{{ .Params.duration }}</itunes:duration>
         <itunes:episode>{{ .Params.episode_number }}</itunes:episode>
+        <link>{{ .Permalink }}</link>
       </item>
 
     {{- end }}
