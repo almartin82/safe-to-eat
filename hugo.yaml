@@ -28,4 +28,4 @@ params:
   podcast:
     description: "a podcast appreciation experiment in the style of google reader."
     explicit: no
-    category: Society &amp; Culture
+    category: Education
