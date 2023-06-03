@@ -8,12 +8,11 @@ episode_number: 2
 alm_description: 
 
 # find these
-duration: 3600 # in seconds
 show_source: "ex Ezra Klein Show"
 original_title: "as appears in the source feed"
 original_subtitle: "as appears in the source feed"
 original_description: "as appears in the source feed.  Escape quotes"
 podcast_url: "some url"
 audio_type: "audio/mpeg for mp3"
+duration: "format as 3600 or 14:45"
 ---
-
