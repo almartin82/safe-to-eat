@@ -20,7 +20,7 @@
 
       <item>
         <title>{{ .Params.show_source }} | {{ .Params.original_title }}</title>
-        <description>Short description about the episode</description>
+        <description>{{ .Params.original_description }}</description>
         <pubDate>{{ .Params.date.Format "Mon Jan 2 2006"}}</pubDate>
         <guid isPermaLink="false">{{.Site.BaseURL}}{{ .Params.episode_number }}</guid>
         <enclosure url="{{ .Params.podcast_url }}" length="0" type="{{ .Params.audio_type }}"/>
