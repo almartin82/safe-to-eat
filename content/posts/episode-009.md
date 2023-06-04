@@ -1,5 +1,5 @@
 ---
-title: Episode 010
+title: Episode 009
 date: 15 Aug 2021
 eptype: full
 episode_number: 9

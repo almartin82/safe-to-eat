@@ -1,8 +1,8 @@
 ---
-title: Episode 01X
-date: Mon, 13 Apr 2020 04:00:00 -0000
+title: Episode 013
+date: 17 Aug 2021
 eptype: full
-episode_number: 2
+episode_number: 13
 
 # provide these
 alm_description: 

@@ -1,5 +1,5 @@
 ---
-title: "Episode 002"
+title: Episode 002
 date: 29 Apr 2020
 eptype: full
 episode_number: 2
