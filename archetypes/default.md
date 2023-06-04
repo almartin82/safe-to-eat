@@ -13,6 +13,6 @@ original_title: as appears in the source feed
 original_subtitle: as appears in the source feed
 original_description: "as appears in the source feed.  Escape quotes"
 podcast_url: "some url"
-audio_type: "audio/mpeg for mp3"
+audio_type: "audio/mpeg for mp3, audio/mp4 for m4a"
 duration: "format as 3600 or 14:45"
 ---
