@@ -1,6 +1,6 @@
 ---
 title: Episode 025
-date: 01 Jun 2023
+date: 02 Jun 2023
 eptype: full
 episode_number: 25
 
