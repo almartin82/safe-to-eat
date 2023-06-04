@@ -9,7 +9,7 @@ outputFormats:
   podcastfeed:
     MediaType: "application/rss+xml"
     BaseName: "podcast"
-    path: "/feed"
+    path: "/feeds"
     IsHTML: false
     IsPlainText: true
     noUgly: true
