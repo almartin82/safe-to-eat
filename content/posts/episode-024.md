@@ -1,8 +1,8 @@
 ---
-title: Episode 0XX
-date: 30 May 2023
+title: Episode 024
+date: 01 Jun 2023
 eptype: full
-episode_number: XX
+episode_number: 24
 
 # provide these
 alm_description: 
