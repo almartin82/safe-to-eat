@@ -28,5 +28,5 @@ params:
     email: almartin@gmail.com
 
   podcast:
-    description: "a podcast appreciation experiment! think google reader shares (RIP), but for podcasts."
+    description: "a podcast appreciation project! think google reader shares (RIP), but for podcasts."
     explicit: "no"
