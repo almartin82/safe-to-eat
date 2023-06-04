@@ -3,6 +3,8 @@ languageCode: 'en-us'
 title: 'safe to eat'
 theme: 'etch'
 summary: ''
+paginate: 50
+
 outputFormats:
   podcastfeed:
     MediaType: "application/rss+xml"
