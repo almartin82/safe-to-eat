@@ -1,6 +1,6 @@
 ---
-title: Episode 01X
-date: Mon, 13 Apr 2020 04:00:00 -0000
+title: Episode 02X
+date: 4 Jun 2023
 eptype: full
 episode_number: 2
 
@@ -8,11 +8,12 @@ episode_number: 2
 alm_description: 
 
 # find these
-show_source: ex Ezra Klein Show
-original_title: as appears in the source feed
-original_subtitle: as appears in the source feed
-original_description: "as appears in the source feed.  Escape quotes"
+show_source: 
+original_title: 
+original_subtitle: 
+original_description: ""
 podcast_url: "some url"
-audio_type: "audio/mpeg for mp3, audio/mp4 for m4a"
+audio_type: "audio/mpeg
+audio/mpeg for mp3, audio/mp4 for m4a"
 duration: "format as 3600 or 14:45"
 ---
