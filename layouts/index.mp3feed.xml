@@ -11,7 +11,7 @@
     </itunes:owner>
     <itunes:author>{{ .Site.Params.Author.Name }}</itunes:author>
     <description> {{ .Site.Params.Podcast.Description}}</description>
-    <itunes:image href="{{ .Site.BaseURL }}images/logo.png"/>    
+    <itunes:image href="{{ .Site.BaseURL }}images/logo.svg"/>    
     <language>{{ .Site.LanguageCode }}</language>
     <link>{{ .Site.BaseURL }}</link>
     <itunes:explicit>{{ .Site.Params.Podcast.Explicit }}</itunes:explicit>
