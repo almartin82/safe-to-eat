@@ -4,10 +4,10 @@ title: 'safe to eat'
 theme: 'etch'
 summary: ''
 outputFormats:
-  mp3feed:
+  podcastfeed:
     MediaType: "application/rss+xml"
-    BaseName: "index"
-    path: "/feed/mp3"
+    BaseName: "podcast"
+    path: "/feed"
     IsHTML: false
     IsPlainText: true
     noUgly: true
@@ -18,7 +18,7 @@ outputs:
     - HTML
     - AMP
     - RSS
-    - mp3feed
+    - podcastfeed
 
 params:
   author:
