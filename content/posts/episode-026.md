@@ -8,7 +8,7 @@ episode_number: 26
 alm_description: 
 
 # find these
-show_source: Guardian Long Read
+show_source: Guardian Audio Long Read
 original_title: The war on Japanese knotweed
 original_subtitle: "Once hailed as a ‘handsome’ import, this most rampant of plants has come to be seen as a sinister, ruinous enemy. Can it be stopped?"
 original_description: ""
