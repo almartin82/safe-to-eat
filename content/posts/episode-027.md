@@ -1,6 +1,6 @@
 ---
 title: Episode 027
-date: 07 Jun 2023
+date: 05 Jun 2023
 eptype: full
 episode_number: 27
 
@@ -8,11 +8,11 @@ episode_number: 27
 alm_description: 
 
 # find these
-show_source: The Joy of Why
-original_title: "What Has the Pandemic Taught Us About Vaccines?"
-original_subtitle: "Should Covid-19 vaccines be judged by how well they prevent disease or how well they prevent death? Anna Durbin, a public health expert and vaccine researcher, talks with Steven Strogatz about the science behind vaccines."
+show_source: EconTalk
+original_title: "Luca Dellanna on Risk, Ruin, and Ergodicity"
+original_subtitle: "Author and consultant Luca Dellanna talks with EconTalk host Russ Roberts about the importance of avoiding ruin when facing risk. Along the way Dellanna makes understandable the arcane concept of ergodicity and shows the importance of avoiding ruin in every day life."
 original_description: ""
-podcast_url: "https://chrt.fm/track/C9B4G7/d2r55xnwy6nx47.cloudfront.net/uploads/2023/04/Vaccines_DurbinMASTER-16LUFS.mp3"
+podcast_url: "https://cdn.simplecast.com/audio/6fdba516-8381-43b0-b29f-59d05512b693/episodes/66d2ef46-4dc1-452c-aa66-4b41df53c65c/audio/b8bb6950-413c-4e0f-adb2-e80323061a86/default_tc.mp3"
 audio_type: "audio/mpeg"
-duration: 2574
+duration: 1:07:31
 ---
