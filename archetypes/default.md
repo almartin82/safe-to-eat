@@ -1,6 +1,6 @@
 ---
 title: Episode 02X
-date: 4 Jun 2023
+date: 04 Jun 2023
 eptype: full
 episode_number: 2
 
