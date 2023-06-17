@@ -1,0 +1,14 @@
+<header id="banner">
+    <img src={{ .Site.BaseURL }}images/logo.svg height="200" width="200">
+    <br>
+    <font size="8"> <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></font>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.main.ByWeight -}}
+            <li>
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>
