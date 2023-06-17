@@ -1,8 +1,8 @@
 ---
-title: Episode 02X
-date: 04 Jun 2023
+title: Episode 03X
+date: 16 Jun 2023
 eptype: full
-episode_number: 2
+episode_number: 3
 
 # provide these
 alm_description: 
