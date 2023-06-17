@@ -1,6 +1,7 @@
-<h3>{{ .Params.title }}</h3>
-<h4>{{ .Params.show_source }} | {{ .Params.original_title }}</h4>
-
+<a href="{{ .Permalink }}"><font size="4">{{ .Params.title }}</font></a>
 <br>
-<a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }}</a> 
+<font size="3"></font>{{ .Params.show_source }} | {{ .Params.original_title }}</font>
+<br>
+posted on <a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }}</a>
+<br>
 <br>
