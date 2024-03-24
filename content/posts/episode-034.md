@@ -1,6 +1,6 @@
 ---
 title: Episode 034
-date: 28 Feb 2024
+date: 31 Jan 2024
 eptype: full
 episode_number: 34
 
@@ -8,26 +8,11 @@ episode_number: 34
 alm_description: 
 
 # find these
-show_source: Dwarkesh Podcast
-original_title: "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat"
+show_source: Guardian Audio Long Read
+original_title: One Swedish zoo, seven escaped chimpanzees
 original_subtitle: ""
-original_description: "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat
-Wednesday 28 February 2024
-https://www.dwarkeshpatel.com/podcast
-Open in Pocket Casts
-Share
-Here is my episode with Demis Hassabis, CEO of Google DeepMind
-
-We discuss:
-
-Why scaling is an artform
-
-Adding search, planning, AlphaZero type training atop LLMs
-
-Making sure rogue nations can't steal weights
-
-The right way to align superhuman AIs and do an intelligence explosion"
-podcast_url: "https://api.substack.com/feed/podcast/142112869/4f69c0aff2bcca246a175d306712c1cc.mp3"
+original_description: "When the great apes at Furuvik Zoo broke free from their enclosure last winter, the keepers faced a terrible choice. This is the story of the most dramatic 72 hours of their lives. By Imogen West-Knights."
+podcast_url: "https://flex.acast.com/audio.guim.co.uk/2024/01/27-72827-gdn.alr.242901.JB_IMOGEN_WK_SWEDISH_ZOO.mp3"
 audio_type: "audio/mpeg"
-duration: 3694
+duration: 53:10
 ---

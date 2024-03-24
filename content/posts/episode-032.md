@@ -1,6 +1,6 @@
 ---
 title: Episode 032
-date: 20 Dec 2023
+date: 12 Jul 2023
 eptype: full
 episode_number: 32
 
@@ -8,11 +8,11 @@ episode_number: 32
 alm_description: 
 
 # find these
-show_source: "Sweat The Technique"
-original_title: "Lessons from Montessori (with Bob Nardo)"
+show_source: "Decoder Ring"
+original_title: "The Great Parmesan Cheese Debate"
 original_subtitle: ""
-original_description: "Ryan sits down with Bob Nardo, Founding Head of School and Executive Director at Libertas School of Memphis. They discuss why the principles of Montessori work, and how they can be applied to successful organizations of all kinds."
-podcast_url: "https://pdst.fm/e/chrt.fm/track/A176GG/traffic.megaphone.fm/LDI1541303045.mp3?updated=1700202928"
+original_description: "Parmesan is a food—but it’s not just a food. Italy’s beloved cheese is often paired with a deep craving for tradition and identity. But its history also involves intrepid immigrants, lucrative businesses and an American version that’s probably available in your local grocery store. After a notorious debunker of Italian-cuisine myths claims this Wisconsin-made product is the real deal, we embark on a quest to answer the question: Has an Italian delicacy been right under our noses this whole time?"
+podcast_url: "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/verifi.podscribe.com/rss/p/chtbl.com/track/28D492/traffic.megaphone.fm/SLT1264102102.mp3?updated=1689115757"
 audio_type: "audio/mpeg"
-duration: 2815
+duration: 2658
 ---
