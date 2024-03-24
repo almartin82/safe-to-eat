@@ -30,3 +30,4 @@ params:
   podcast:
     description: "a podcast appreciation project! think google reader shares (RIP), but for podcasts."
     explicit: "no"
+    category: "Leisure"
