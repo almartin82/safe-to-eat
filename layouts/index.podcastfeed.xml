@@ -15,6 +15,7 @@
     <language>{{ .Site.LanguageCode }}</language>
     <link>{{ .Site.BaseURL }}</link>
     <itunes:explicit>{{ .Site.Params.Podcast.Explicit }}</itunes:explicit>
+    <itunes:category>{{ .Site.Params.Podcast.Category }}</itunes:category>
 
     {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
 
