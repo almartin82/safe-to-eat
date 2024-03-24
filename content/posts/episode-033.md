@@ -20,13 +20,13 @@ Here is my episode with Demis Hassabis, CEO of Google DeepMind
 
 We discuss:
 
-* Why scaling is an artform
+Why scaling is an artform
 
-* Adding search, planning, & AlphaZero type training atop LLMs
+Adding search, planning, & AlphaZero type training atop LLMs
 
-* Making sure rogue nations can't steal weights
+Making sure rogue nations can't steal weights
 
-* The right way to align superhuman AIs and do an intelligence explosion"
+The right way to align superhuman AIs and do an intelligence explosion"
 podcast_url: "https://api.substack.com/feed/podcast/142112869/4f69c0aff2bcca246a175d306712c1cc.mp3"
 audio_type: "audio/mpeg"
 duration: 3694
