@@ -1,6 +1,6 @@
 ---
 title: Episode 034
-date: 06 Mar 2024
+date: 28 Feb 2024
 eptype: full
 episode_number: 34
 
@@ -8,11 +8,26 @@ episode_number: 34
 alm_description: 
 
 # find these
-show_source: Quanta Magazine
-original_title: "Tiny Language Models Come of Age"
+show_source: Dwarkesh Podcast
+original_title: "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat"
 original_subtitle: ""
-original_description: "To better understand how neural networks learn to simulate writing, researchers trained simpler versions on synthetic children’s stories."
-podcast_url: "https://chrt.fm/track/C9B4G7/d2r55xnwy6nx47.cloudfront.net/uploads/2023/10/quanta-235_v1.mp3"
+original_description: "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat
+Wednesday 28 February 2024
+https://www.dwarkeshpatel.com/podcast
+Open in Pocket Casts
+Share
+Here is my episode with Demis Hassabis, CEO of Google DeepMind
+
+We discuss:
+
+Why scaling is an artform
+
+Adding search, planning, AlphaZero type training atop LLMs
+
+Making sure rogue nations can't steal weights
+
+The right way to align superhuman AIs and do an intelligence explosion"
+podcast_url: "https://api.substack.com/feed/podcast/142112869/4f69c0aff2bcca246a175d306712c1cc.mp3"
 audio_type: "audio/mpeg"
-duration: 1248
+duration: 3694
 ---
