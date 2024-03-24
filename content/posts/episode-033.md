@@ -22,7 +22,7 @@ We discuss:
 
 Why scaling is an artform
 
-Adding search, planning, & AlphaZero type training atop LLMs
+Adding search, planning, AlphaZero type training atop LLMs
 
 Making sure rogue nations can't steal weights
 
