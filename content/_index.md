@@ -9,4 +9,4 @@ think google reader re-shares (RIP), but for podcasts.
 
 ## subscribe!
 
-[pocketcasts](https://pca.st/iewwys4q) | [apple](https://podcasts.apple.com/us/podcast/safe-to-eat/id1737767437) | [rss, please](https://almartin82.github.io/safe-to-eat/feeds/podcast.xml)
+[pocketcasts](https://play.pocketcasts.com/podcasts/985c0100-e550-013b-f4d7-0acc26574db2) | [apple](https://podcasts.apple.com/us/podcast/safe-to-eat/id1737767437) | [rss, please](https://almartin82.github.io/safe-to-eat/feeds/podcast.xml)
