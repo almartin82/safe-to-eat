@@ -1,6 +1,6 @@
 ---
 title: Episode 014
-date: 15 Jan 2023 08:00:00 -0000
+date: Sun, 15 Jan 2023 08:00:00 +0000
 eptype: full
 episode_number: 14
 

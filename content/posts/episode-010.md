@@ -1,6 +1,6 @@
 ---
 title: Episode 010
-date: 16 Aug 2021 08:00:00 -0000
+date: Mon, 16 Aug 2021 08:00:00 +0000
 eptype: full
 episode_number: 10
 

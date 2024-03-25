@@ -1,6 +1,6 @@
 ---
 title: Episode 018
-date: 10 Apr 2023 08:00:00 -0000
+date: Mon, 10 Apr 2023 08:00:00 +0000
 eptype: full
 episode_number: 18
 
