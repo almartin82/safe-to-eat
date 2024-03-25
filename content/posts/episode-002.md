@@ -1,6 +1,6 @@
 ---
 title: Episode 002
-date: 29 Apr 2020 08:00:00 -0000
+date: Wed, 29 Apr 2020 08:00:00 +0000
 eptype: full
 episode_number: 2
 
