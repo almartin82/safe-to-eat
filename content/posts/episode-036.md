@@ -1,6 +1,6 @@
 ---
 title: Episode 036
-date: Wed, 06 Mar 2024 08:00:00 +0000
+date: Mon, 25 Mar 2024 08:00:00 +0000
 eptype: full
 episode_number: 36
 
