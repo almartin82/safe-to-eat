@@ -1,6 +1,6 @@
 ---
 title: Episode 005
-date: 03 May 2020 08:00:00 -0000
+date: Sun, 03 May 2020 08:00:00 +0000
 eptype: full
 episode_number: 5
 

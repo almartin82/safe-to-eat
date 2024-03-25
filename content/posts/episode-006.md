@@ -1,6 +1,6 @@
 ---
 title: Episode 006
-date: 10 May 2020 08:00:00 -0000
+date: Sun, 10 May 2020 08:00:00 +0000
 eptype: full
 episode_number: 6
 
