@@ -1,6 +1,6 @@
 ---
 title: Episode 031
-date: 22 Jun 2023 08:00:00 -0000
+date: Thu, 22 Jun 2023 08:00:00 +0000
 eptype: full
 episode_number: 31
 

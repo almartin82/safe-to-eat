@@ -1,6 +1,6 @@
 ---
 title: Episode 029
-date: 12 Jun 2023 08:00:00 -0000
+date: Mon, 12 Jun 2023 08:00:00 +0000
 eptype: full
 episode_number: 29
 

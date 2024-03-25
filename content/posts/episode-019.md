@@ -1,6 +1,6 @@
 ---
 title: Episode 019
-date: 17 Apr 2023 08:00:00 -0000
+date: Mon, 17 Apr 2023 08:00:00 +0000
 eptype: full
 episode_number: 19
 

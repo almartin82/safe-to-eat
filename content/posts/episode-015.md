@@ -1,6 +1,6 @@
 ---
 title: Episode 015
-date: 25 Jan 2023 08:00:00 -0000
+date: Wed, 25 Jan 2023 08:00:00 +0000
 eptype: full
 episode_number: 15
 

@@ -1,6 +1,6 @@
 ---
 title: Episode 028
-date: 07 Jun 2023 08:00:00 -0000
+date: Wed, 07 Jun 2023 08:00:00 +0000
 eptype: full
 episode_number: 28
 

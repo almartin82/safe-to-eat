@@ -1,6 +1,6 @@
 ---
 title: Episode 012
-date: 19 Aug 2021 08:00:00 -0000
+date: Thu, 19 Aug 2021 08:00:00 +0000
 eptype: full
 episode_number: 12
 

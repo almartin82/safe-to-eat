@@ -1,6 +1,6 @@
 ---
 title: Episode 023
-date: 31 May 2023 08:00:00 -0000
+date: Wed, 31 May 2023 08:00:00 +0000
 eptype: full
 episode_number: 23
 

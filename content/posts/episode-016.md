@@ -1,6 +1,6 @@
 ---
 title: Episode 016
-date: 10 Feb 2023 08:00:00 -0000
+date: Fri, 10 Feb 2023 08:00:00 +0000
 eptype: full
 episode_number: 16
 

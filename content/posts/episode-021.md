@@ -1,6 +1,6 @@
 ---
 title: Episode 021
-date: 16 May 2023 08:00:00 -0000
+date: Tue, 16 May 2023 08:00:00 +0000
 eptype: full
 episode_number: 21
 

@@ -1,6 +1,6 @@
 ---
 title: Episode 013
-date: 20 Aug 2021 08:00:00 -0000
+date: Fri, 20 Aug 2021 08:00:00 +0000
 eptype: full
 episode_number: 13
 

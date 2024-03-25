@@ -1,6 +1,6 @@
 ---
 title: Episode 022
-date: 23 May 2023 08:00:00 -0000
+date: Tue, 23 May 2023 08:00:00 +0000
 eptype: full
 episode_number: 22
 

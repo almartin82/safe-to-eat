@@ -1,6 +1,6 @@
 ---
 title: Episode 017
-date: 05 Mar 2023 08:00:00 -0000
+date: Sun, 05 Mar 2023 08:00:00 +0000
 eptype: full
 episode_number: 17
 
