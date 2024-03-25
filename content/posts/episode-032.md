@@ -1,6 +1,6 @@
 ---
 title: Episode 032
-date: 12 Jul 2023
+date: 12 Jul 2023 08:00:00 -0000
 eptype: full
 episode_number: 32
 

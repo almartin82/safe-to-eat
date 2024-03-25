@@ -1,6 +1,6 @@
 ---
 title: Episode 030
-date: 16 Jun 2023
+date: 16 Jun 2023 08:00:00 -0000
 eptype: full
 episode_number: 30
 

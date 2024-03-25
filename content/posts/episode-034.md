@@ -1,6 +1,6 @@
 ---
 title: Episode 034
-date: 31 Jan 2024
+date: 31 Jan 2024 08:00:00 -0000
 eptype: full
 episode_number: 34
 

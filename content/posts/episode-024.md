@@ -1,6 +1,6 @@
 ---
 title: Episode 024
-date: 01 Jun 2023
+date: 01 Jun 2023 08:00:00 -0000
 eptype: full
 episode_number: 24
 

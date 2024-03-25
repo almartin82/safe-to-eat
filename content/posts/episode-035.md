@@ -1,6 +1,6 @@
 ---
 title: Episode 035
-date: 28 Feb 2024
+date: 28 Feb 2024 08:00:00 -0000
 eptype: full
 episode_number: 35
 

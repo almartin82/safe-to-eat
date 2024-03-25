@@ -1,6 +1,6 @@
 ---
 title: Episode 009
-date: 15 Aug 2021
+date: 15 Aug 2021 08:00:00 -0000
 eptype: full
 episode_number: 9
 

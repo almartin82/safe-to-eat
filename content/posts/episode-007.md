@@ -1,6 +1,6 @@
 ---
 title: Episode 007
-date: 11 May 2020
+date: 11 May 2020 08:00:00 -0000
 eptype: full
 episode_number: 7
 
