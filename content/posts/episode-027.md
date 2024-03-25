@@ -1,6 +1,6 @@
 ---
 title: Episode 027
-date: 05 Jun 2023
+date: 05 Jun 2023 08:00:00 -0000
 eptype: full
 episode_number: 27
 

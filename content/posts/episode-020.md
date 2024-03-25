@@ -1,6 +1,6 @@
 ---
 title: Episode 020
-date: 21 Apr 2023
+date: 21 Apr 2023 08:00:00 -0000
 eptype: full
 episode_number: 20
 

@@ -1,6 +1,6 @@
 ---
 title: Episode 026
-date: 04 Jun 2023
+date: 04 Jun 2023 08:00:00 -0000
 eptype: full
 episode_number: 26
 

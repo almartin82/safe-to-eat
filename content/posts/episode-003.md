@@ -1,6 +1,6 @@
 ---
 title: Episode 003
-date: 30 Apr 2020
+date: 30 Apr 2020 08:00:00 -0000
 eptype: full
 episode_number: 3
 
