@@ -9,7 +9,7 @@ alm_description:
 
 # find these
 show_source: 30 for 30 Podcasts
-original_title: Searching For Hobey Baker
+original_title: Searching For Hobey Baker, Episode 1 The Natural
 original_subtitle: ""
 original_description: "Narrated by David Duchovny, Searching for Hobey Baker re-contextualizes and brings to life the story of one of the greatest college athletes who has largely been lost to history.
 
