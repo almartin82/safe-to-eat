@@ -1,6 +1,6 @@
 ---
 title: Episode 039
-date: Wed, 24 Jul 2024 08:00:00 +0000
+date: Wed, 12 Jun 2024 08:00:00 +0000
 eptype: full
 episode_number: 39
 
