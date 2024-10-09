@@ -1,6 +1,6 @@
 ---
 title: Episode 040
-date: Tue, 08 Oct 2024 08:00:00 +0000
+date: Mon, 07 Oct 2024 08:00:00 +0000
 eptype: full
 episode_number: 40
 
@@ -9,7 +9,7 @@ alm_description:
 
 # find these
 show_source: O'Reilly Solid Podcast (RIP) with Jon Bruner
-original_title: Trip to McMoon's
+original_title: Trip to McMoon's, pt 1 - the Lunar Orbiter Image Recovery Project
 original_subtitle: ""
 original_description: "We’re kicking off our newest series, the O’Reilly Solid Podcast, with an episode recorded in the manager’s office of a McDonald’s at NASA’s Ames Research Center. David Cranor and I (Jon Bruner) visited McMoon’s, as it’s known, to talk with Dennis Wingo, founder of two audacious “techno archaeology” efforts.
 
