@@ -8,7 +8,7 @@ episode_number: 43
 alm_description: 
 
 # find these
-show_source: Guardian Long Read
+show_source: Guardian Audio Long Read
 original_title: "The ghosts are everywhere: Can the British Museum survive its omni-crisis"
 original_subtitle: ""
 original_description: "Beset by colonial controversy, difficult finances and the discovery of a thief on the inside, Britain’s No 1 museum is in deep trouble. Can it restore its reputation? By Charlotte Higgins"
