@@ -4,6 +4,16 @@ a podcast appreciation project! think google reader re-shares (RIP), but for pod
 
 check it out [here](https://almartin82.github.io/safe-to-eat/)!
 
+## local development
+
+Install Hugo and run:
+
+```bash
+hugo server
+```
+
+Site available at: http://localhost:1313/safe-to-eat/
+
 ## updating and deploying
 
 - grab RSS info from [listen notes](https://www.listennotes.com/)
