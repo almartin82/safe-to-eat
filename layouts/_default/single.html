@@ -48,7 +48,7 @@
         */
         audio: [
         {
-            url:"{{.Site.Params.podcast.mp3}}",
+            url:"{{.Params.podcast_url}}",
             title: "MP3 Audio (mp3)",
             mimeType: "audio/mpeg"
         }
@@ -73,6 +73,8 @@
         sharePlaytime: true
         }
     };
+    
+    podlovePlayer('#player', episode, config);
     })();
     </script>
 
