@@ -9,7 +9,7 @@ alm_description:
 
 # find these
 show_source: Astral Codex Ten Podcast
-original_title: "Your Review: Alpha School"
+original_title: "Your Review Alpha School"
 original_subtitle: ""
 original_description: ""
 podcast_url: "https://traffic.libsyn.com/secure/sscpodcast/Your_Review-_Alpha_School.mp3?dest-id=586545"
