@@ -1,14 +1,34 @@
-# Episode File Guide
+# Contributing Guide
 
-This document describes how to create and format episode files for the safe-to-eat Hugo podcast project.
+This document describes how to update and maintain the safe-to-eat Hugo podcast project.
 
-## File Naming
+## Project Overview
+
+safe-to-eat is a podcast appreciation project - a curated collection of podcast episodes worth sharing. Think Google Reader shares (RIP), but for podcasts.
+
+## Build Information
+
+This project is built on GitHub using GitHub Actions. The `public/` directory is generated during the GitHub Actions build process and should NOT be committed to the repository.
+
+**Important:** If you run `hugo` locally to test the build, delete the `public/` directory before committing:
+
+```bash
+rm -rf public/
+```
+
+## Adding a New Episode
+
+### 1. Create the Episode File
 
 - Files go in `content/posts/`
 - Format: `episode-XXX.md` (zero-padded to 3 digits)
 - Examples: `episode-001.md`, `episode-045.md`
 
-## Frontmatter Structure
+### 2. Use Today's Date
+
+**Important:** The `date` field should be TODAY'S DATE (when you're adding the episode), NOT the original publication date of the podcast. This is a curation project - the date reflects when we added it to our collection.
+
+### 3. Frontmatter Structure
 
 Every episode file uses YAML frontmatter between `---` delimiters:
 
@@ -33,19 +53,19 @@ duration: HH:MM:SS
 ---
 ```
 
-## Field Reference
+### 4. Field Reference
 
 | Field | Required | Quotes | Notes |
 |-------|----------|--------|-------|
 | `title` | Yes | No | Format: `Episode XXX` |
-| `date` | Yes | No | RFC 2822 format: `Day, DD Mon YYYY HH:MM:SS +0000` |
+| `date` | Yes | No | **Today's date** in RFC 2822 format: `Day, DD Mon YYYY HH:MM:SS +0000` |
 | `eptype` | Yes | No | Always `full` |
 | `episode_number` | Yes | No | Integer, no leading zeros |
 | `alm_description` | No | No | Your personal notes (can be empty) |
 | `show_source` | Yes | Optional | Source podcast name |
 | `original_title` | Yes | Yes | Episode title from source |
 | `original_subtitle` | No | Yes | Can be empty `""` |
-| `original_description` | Yes | Yes | Episode description |
+| `original_description` | Yes | Yes | Episode description from source |
 | `podcast_url` | Yes | Yes | Direct link to audio file |
 | `audio_type` | Yes | Yes | Usually `audio/mpeg` or `audio/mp4` |
 | `duration` | Yes | No | Various formats accepted: seconds, `MM:SS`, `HH:MM:SS` |
@@ -73,7 +93,7 @@ duration: HH:MM:SS
 
 ## Character Handling
 
-### SAFE Characters (no encoding needed)
+### SAFE Characters (no special handling needed)
 
 Inside double-quoted strings, these are safe:
 - Letters (a-z, A-Z)
@@ -91,19 +111,32 @@ Inside double-quoted strings, these are safe:
 - Ampersands `&`
 - Parentheses `()`
 - Standard apostrophes `'` (ASCII 0x27)
+- En-dash `–` (generally safe, see episode-020)
 
-### PROBLEMATIC Characters - URL Encode or Remove
+### PROBLEMATIC Characters - Remove or Replace
+
+**Important:** Do NOT use URL encoding (like `%5B`) for display text. URL-encoded characters will display literally on the page. Only use URL encoding in actual URLs.
 
 | Character | Problem | Solution |
 |-----------|---------|----------|
-| `[` | YAML parsing issues | URL encode: `%5B` or remove |
-| `]` | YAML parsing issues | URL encode: `%5D` or remove |
-| `"` (inside string) | Breaks YAML string | Remove or use HTML entity `&quot;` |
-| `—` (em-dash) | Non-ASCII encoding | URL encode: `%E2%80%94` or use `--` |
-| `–` (en-dash) | Non-ASCII encoding | URL encode: `%E2%80%93` or use `-` |
+| `[` | YAML parsing issues | Remove entirely |
+| `]` | YAML parsing issues | Remove entirely |
+| `"` (inside string) | Breaks YAML string | Remove entirely |
+| `—` (em-dash) | May cause issues | Replace with `–` (en-dash) or `--` |
 | `'` (curly apostrophe) | Non-ASCII encoding | Replace with `'` (straight) |
 | `'` (curly apostrophe) | Non-ASCII encoding | Replace with `'` (straight) |
-| `"` `"` (curly quotes) | Non-ASCII encoding | Remove or replace with nothing |
+| `"` `"` (curly quotes) | Non-ASCII encoding | Remove entirely |
+
+### Quick Reference: Character Replacement
+
+| Character | Replace With |
+|-----------|--------------|
+| `[` | (remove) |
+| `]` | (remove) |
+| `"` (inside string) | (remove) |
+| `—` (em-dash) | `–` (en-dash) or `--` |
+| `'` `'` (curly apostrophes) | `'` (straight) |
+| `"` `"` (curly quotes) | (remove) |
 
 ### HTML in Descriptions
 
@@ -166,24 +199,15 @@ Note: Apostrophes work without quotes, but `%` requires quotes.
 
 Before committing a new episode file:
 
-1. [ ] All string fields that need quotes have them
-2. [ ] No unescaped `[` or `]` characters in descriptions
-3. [ ] No curly quotes or curly apostrophes (use straight versions)
-4. [ ] No internal double quotes in double-quoted strings
-5. [ ] Em-dashes are URL-encoded or replaced
-6. [ ] File follows naming convention: `episode-XXX.md`
-7. [ ] Run `hugo build` to verify no parsing errors
-
-## Quick Reference: URL Encoding
-
-| Character | URL Encoded |
-|-----------|-------------|
-| `[` | `%5B` |
-| `]` | `%5D` |
-| `—` (em-dash) | `%E2%80%94` |
-| `–` (en-dash) | `%E2%80%93` |
-| space | `%20` |
-| `&` | `%26` |
+1. [ ] Date is set to TODAY'S date, not the original publication date
+2. [ ] All string fields that need quotes have them
+3. [ ] No `[` or `]` characters in descriptions (remove them)
+4. [ ] No curly quotes or curly apostrophes (use straight versions)
+5. [ ] No internal double quotes in double-quoted strings
+6. [ ] Em-dashes are replaced with en-dashes or `--`
+7. [ ] File follows naming convention: `episode-XXX.md`
+8. [ ] Run `hugo` locally to verify no parsing errors
+9. [ ] Delete `public/` directory before committing
 
 ## Troubleshooting
 
@@ -200,3 +224,7 @@ Before committing a new episode file:
 **Build succeeds but content looks wrong:**
 - Check HTML entities are correct
 - Verify multi-line strings maintain structure
+
+**URL-encoded characters showing literally (like %5B):**
+- Don't use URL encoding for display text
+- Remove or replace problematic characters instead
