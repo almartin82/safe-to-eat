@@ -28,7 +28,16 @@ rm -rf public/
 
 **Important:** The `date` field should be TODAY'S DATE (when you're adding the episode), NOT the original publication date of the podcast. This is a curation project - the date reflects when we added it to our collection.
 
-### 3. Frontmatter Structure
+### 3. Strip Episode Numbers from Titles
+
+**Important:** NEVER include the original podcast's episode number in `original_title`. If the source title includes an episode number (e.g., "EP 11", "Episode 45", "#123"), strip/omit it.
+
+Examples:
+- Source: `"Dwarkesh Patel Wants People to Learn Things - EP 11"` → Use: `"Dwarkesh Patel Wants People to Learn Things"`
+- Source: `"Episode 45: The Future of AI"` → Use: `"The Future of AI"`
+- Source: `"#123 - Interview with Jane Doe"` → Use: `"Interview with Jane Doe"`
+
+### 4. Frontmatter Structure
 
 Every episode file uses YAML frontmatter between `---` delimiters:
 
@@ -53,7 +62,7 @@ duration: HH:MM:SS
 ---
 ```
 
-### 4. Field Reference
+### 5. Field Reference
 
 | Field | Required | Quotes | Notes |
 |-------|----------|--------|-------|
@@ -63,7 +72,7 @@ duration: HH:MM:SS
 | `episode_number` | Yes | No | Integer, no leading zeros |
 | `alm_description` | No | No | Your personal notes (can be empty) |
 | `show_source` | Yes | Optional | Source podcast name |
-| `original_title` | Yes | Yes | Episode title from source |
+| `original_title` | Yes | Yes | Episode title from source (strip episode numbers - see below) |
 | `original_subtitle` | No | Yes | Can be empty `""` |
 | `original_description` | Yes | Yes | Episode description from source |
 | `podcast_url` | Yes | Yes | Direct link to audio file |
@@ -200,14 +209,15 @@ Note: Apostrophes work without quotes, but `%` requires quotes.
 Before committing a new episode file:
 
 1. [ ] Date is set to TODAY'S date, not the original publication date
-2. [ ] All string fields that need quotes have them
-3. [ ] No `[` or `]` characters in descriptions (remove them)
-4. [ ] No curly quotes or curly apostrophes (use straight versions)
-5. [ ] No internal double quotes in double-quoted strings
-6. [ ] Em-dashes are replaced with en-dashes or `--`
-7. [ ] File follows naming convention: `episode-XXX.md`
-8. [ ] Run `hugo` locally to verify no parsing errors
-9. [ ] Delete `public/` directory before committing
+2. [ ] Episode numbers stripped from `original_title`
+3. [ ] All string fields that need quotes have them
+4. [ ] No `[` or `]` characters in descriptions (remove them)
+5. [ ] No curly quotes or curly apostrophes (use straight versions)
+6. [ ] No internal double quotes in double-quoted strings
+7. [ ] Em-dashes are replaced with en-dashes or `--`
+8. [ ] File follows naming convention: `episode-XXX.md`
+9. [ ] Run `hugo` locally to verify no parsing errors
+10. [ ] Delete `public/` directory before committing
 
 ## Troubleshooting
 
